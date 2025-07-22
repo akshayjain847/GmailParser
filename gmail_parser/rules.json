@@ -1,0 +1,36 @@
+[
+  {
+    "predicate": "Any",
+    "conditions": [
+      {
+        "field": "From",
+        "predicate": "Contains",
+        "value": "no-reply@geeksforgeeks.org"
+      }
+    ],
+    "actions": [
+      {
+        "type": "mark_unread"
+      },
+      {
+        "type": "move_message",
+        "value": "IMPORTANT"
+      }
+    ]
+  },
+  {
+    "predicate": "Any",
+    "conditions": [
+      {
+        "field": "Subject",
+        "predicate": "Contains",
+        "value": "urgent"
+      }
+    ],
+    "actions": [
+      {
+        "type": "mark_unread"
+      }
+    ]
+  }
+] 
