@@ -130,6 +130,7 @@ dmypy.json
 
 # Gmail API credentials
 credentials.json
+credentialsback.json
 
 # Database files
 *.db
