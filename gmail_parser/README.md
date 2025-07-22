@@ -20,7 +20,7 @@ A Python application that integrates with Gmail API to fetch emails and apply ru
 pip install -r requirements.txt
 ```
 
-### 2. Authentication Setup
+### 2. Authentication Setup [I will provide credentials.json file in mail for testing if needed]
 
 **⚠️ IMPORTANT: You must set up Gmail API credentials to use this application.**
 
